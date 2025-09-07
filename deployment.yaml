@@ -15,5 +15,7 @@ spec:
       containers:
         - name: weather-app
           image: ghcr.io/jordanaconnor/weather-application/spring-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
+
