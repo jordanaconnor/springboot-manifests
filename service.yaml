@@ -7,5 +7,6 @@ spec:
     app: weather-app
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 8081
+      nodePort: 30923
   type: NodePort
