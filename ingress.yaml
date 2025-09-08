@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: weather-app-ingress
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
 spec:
   rules:
   - host: weather.local-sky-network.com
